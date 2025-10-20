@@ -13,6 +13,6 @@ class Note extends Model
     ];
 
     protected $casts = [
-        'is_favorite' => 'boolean'
+        'pinned' => 'boolean'
     ];
 }
